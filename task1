@@ -1,0 +1,18 @@
+<html>
+<body>
+<form action="success.html">
+ <label for="usname">Username</label>
+<input type="text" name="uname" id="usname" placeholder="enter your name"><br>
+<label for="pswd">Password</label>
+<input type="password" name="pwd" id="pswd" placeholder="enter your password"><br>
+<label for="gender" >Gender</label>
+<input type="radio" name="gender" value ="M" id="gender">Male
+<input type="radio" name="gender" value ="F" id="gender">Female<br>
+<label for="mail">Email</label>
+<input type="email" name="mail" id="mail" placeholder="email">
+<label for="dob">Date of Birth</label>
+<input type="date" name="dob" id="dob">
+<input type ="submit"><br>
+</form>
+</body>
+</html>
